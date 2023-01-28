@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(./fonts/Gilroy-ExtraBold.otf);
+}
+:root{
+    --color-dark-blue: #675cb0;
+}
+/* --- GENERAL STYLE --- */
+a{color: inherit;}
+.container > .row {
+    margin-bottom: 3rem;
+}
+
+/* --- SECTIONS --- */
+/* ---- NAV ---- */
+.navbar-brand img{width: 70px;}
+.navbar-main .active {text-decoration: underline var(--color-dark-blue);}
+#nava {text-align: center; font-family: Gilroy-bold;}
+/* --- HEADER --- */
+
+.icons-social-networks > a {
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    display: inline-flex;
+    justify-content: center;
+}
+
+.header-main{
+    min-height: 100vh;
+}
+#hname{
+    color: white;
+}
+.photo-frame{
+    position: relative;
+
+
+}
+hr{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+#prcon {
+    color: white;
+    text-align: center;
+}
+.icon-service {
+    --box-size:70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+
+}
+.txtcolorsec{color: white;}
+.neon-section {
+    box-shadow: 0 0 10px #675cb0, 0 0 20px #675cb0;
+}
+#emails {
+    color: white;
+    text-decoration: none;
+}
+#navulti a{
+    color: white;
+    text-decoration: none;
+}
+.foort {
+    color: gray;
+}
+@media screen and (max-width: 769px){
+    body{
+        margin-top: 5rem;
+    }
+    .header-main{
+    height: initial;
+    }
+}
